@@ -1,0 +1,229 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.bold-numbers {
+    color:#95a1af;
+    font-family: Roboto Slab; 
+    font-size:90px; 
+    margin-left: 145px; 
+}
+
+.bottom-nav {
+    background-color: #2f3554;
+    display: flex; 
+    justify-content:space-evenly; 
+    position:absolute; 
+}
+
+.bottom-height {
+    display: flex; 
+    flex-direction:column; 
+    line-height:10px
+}
+
+.bottom-title {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    color:#708090;
+}
+
+.carousel-indicators {
+    position: inherit;
+}
+
+.carousel-indicators li {
+    border-radius: 100%;
+    height: 5px;
+    width: 5px;
+}
+
+.climb {
+    height: 10rem; 
+    position:relative
+}
+
+.climb-box {
+    display: flex;
+}
+
+.copyright {
+    color:#708090;
+    font-style:italic; 
+    padding: 1rem; 
+}
+
+.directions {
+    color: #2f3554;
+    font-family: Montserrat; 
+    font-size:25px; 
+    margin-left: -22px;
+    margin-top:45px; 
+    text-transform:uppercase;  
+}
+
+.directions-text {
+    align-items: center; 
+    display: flex; 
+    margin-left:90px;
+    margin-top: 10px; 
+    padding-right:28px;
+}
+
+.hero {
+    background-image: url('./img/Los-angeles-mountain.jpg'); 
+    background-repeat: no-repeat; 
+    background-size:cover;
+    height: 40rem;   
+}
+
+.hero-links {
+    display: inline-flex;
+    color:white;
+    font-family: Lato; 
+    margin-left: 30rem; 
+    text-decoration: underline;
+}
+
+.hero-link {
+    padding: 1rem;
+}
+
+.hero-link:hover {
+    color:#2f3554;
+    cursor: pointer;
+}
+
+.hero-nav {
+    display: flex; 
+    justify-content:space-evenly;
+}
+
+.history {
+    background-image: url('./img/snowy-mountain2.jpg'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height:40rem; 
+    position:relative;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.history-box {
+    display: flex;
+}
+
+.icon {
+    max-height: 2rem;
+}
+
+.image-nav {
+    background-color: #2f3554;  
+    height: 10rem; 
+    opacity: 90%;
+    position: absolute; 
+}
+
+.image-nav-box {
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+.mountain-nav {
+    background-color: #2f3554; 
+    position: absolute; 
+    text-transform:uppercase
+}
+
+.mountain-one {
+    background-color: #95a1af; 
+    color: #2f3554;  
+    margin-left: 90px
+}
+
+.mountain-one:hover {
+    background-color: #2f3554 !important; 
+    color:#95a1af !important;
+    text-decoration: underline;
+}
+
+.mountain-two {
+    background-color: #2f3554; 
+    color:#95a1af;
+}
+
+.mountain-two:hover {
+    background-color: #fff !important; 
+    color: #2f3554 !important;
+    text-decoration: underline;
+}
+
+.schedule {
+    padding-top:50px;
+}
+
+.schedule-card {
+    height: 15rem;
+    margin-left:100px; 
+    opacity:90%; 
+    padding: 30px; 
+    width: 25rem;
+}
+
+.schedule-dates {
+    list-style: none; 
+    padding:0;
+}
+
+.schedule-routes {
+    list-style: none;
+}
+
+.schedule-display {
+    display: flex;
+}
+
+.schedule-section {
+    background-image: url('./img/craggy-mountain.jpeg'); 
+    background-repeat: no-repeat; 
+    background-size:cover; 
+    color:grey;
+    height: 40rem; 
+    position: relative; 
+}
+
+.schedule-text {
+    color: #2f3554; 
+    font-family: Lato; 
+    text-transform: uppercase; 
+}
+.sticky-nav {
+    display: flex; 
+    justify-content:space-between; 
+    padding-left: 150px; 
+    padding-right: 25px;
+    position:fixed; 
+}
+
+.sticky-nav-link {
+    padding: 1rem;
+}
+
+.sticky-nav-links {
+    display: flex; 
+    font-family: Lato; 
+    text-decoration: underline;
+}
+
+.sticky-nav-links :hover {
+    color:#95a1af;
+    cursor: pointer;
+}
+
+.sticky-nav-title {
+    display: flex; 
+    flex-direction:column; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height:10px;
+}

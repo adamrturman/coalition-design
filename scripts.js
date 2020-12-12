@@ -1,4 +1,4 @@
-const height = ($('#hero').height() + 2*($('#sticky').height()))
+const height = ($('#hero').height() - $('#sticky').height())
 
 $(window).scroll(function() {
     if($(this).scrollTop() >= height) {

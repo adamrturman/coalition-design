@@ -85,6 +85,11 @@ html {
     text-decoration: underline;
 }
 
+.herolink, a {
+    color:#fff;
+    font-family: Lato;
+}
+
 .hero-link {
     padding: 1rem;
 }
@@ -199,6 +204,12 @@ html {
     font-family: Lato; 
     text-transform: uppercase; 
 }
+
+.sticky-herolink, a {
+    color:#2f3554;
+    font-family: Lato;
+}
+
 .sticky-nav {
     display: flex; 
     justify-content:space-between; 

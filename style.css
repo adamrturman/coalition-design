@@ -71,6 +71,7 @@ html {
 
 .hero {
     background-image: url('./img/Los-angeles-mountain.jpg'); 
+    background-position: center;
     background-repeat: no-repeat; 
     background-size:cover;
     height: 40rem;   
@@ -100,7 +101,7 @@ html {
 
 .history {
     background-image: url('./img/snowy-mountain2.jpg'); 
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-size: cover; 
     height:40rem; 
     position:relative;
@@ -226,4 +227,8 @@ html {
     flex-direction:column; 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     line-height:10px;
+}
+
+@media (min-width: 320px) {
+
 }
